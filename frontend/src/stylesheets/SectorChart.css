@@ -1,0 +1,11 @@
+.SectorChart {
+    margin: 50px;
+    padding: 10px;
+    height: 600px;
+    width: 600px;
+}
+
+.SectorChart h1 {
+    margin-bottom: 40px;
+    font-family: "Poppins", sans-serif;
+}

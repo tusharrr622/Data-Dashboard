@@ -1,0 +1,11 @@
+.LikelihoodChart {
+    margin: 50px;
+    padding: 10px;
+    height: 600px;
+    width: 600px;
+}
+
+.LikelihoodChart h1 {
+    margin-bottom: 40px;
+    font-family: "Poppins", sans-serif;
+}

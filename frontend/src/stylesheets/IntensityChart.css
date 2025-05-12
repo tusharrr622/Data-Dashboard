@@ -1,0 +1,9 @@
+.intensityChart {
+    margin: 50px;
+    padding: 10px;
+}
+
+.intensityChart h1 {
+    margin-bottom: 40px;
+    font-family: "Poppins", sans-serif;
+}
