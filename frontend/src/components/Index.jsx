@@ -15,7 +15,7 @@ const Index = () => {
     const [Data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/data')
+        axios.get(`${import.meta.env.VITE_API_BASE_URL}`)
             .then((response) => {
                 setData(response.data); // ✅ sets the new data
                 console.log(response.data); // ✅ log the fetched data instead of state
